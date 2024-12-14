@@ -24,9 +24,10 @@ A Python-based educational tool that demonstrates how DDoS attacks impact networ
 
 ## **2. How to Get Started**  
 ### Requirements  
-- **Python 3.9+**  
+- **Python 3.9+**  (already included in the executable).
 - **PyQt5** library (already included in the executable).  
-
+  only for debug
+  
 ### Steps  
 1. **Download the Tool**:  
    - Go to the [Releases Page](https://github.com/noorly/daylight-ddos/releases) and download the latest `.zip` file.  
