@@ -144,7 +144,7 @@ class UDPFlooderApp(QMainWindow):
         thread_layout = QHBoxLayout()
         thread_label = QLabel("Threads:")
         self.thread_input = QSpinBox()
-        self.thread_input.setRange(1, 1000000)
+        self.thread_input.setRange(1, 10000000)
         self.thread_input.setValue(5000)
         thread_layout.addWidget(thread_label)
         thread_layout.addWidget(self.thread_input)
